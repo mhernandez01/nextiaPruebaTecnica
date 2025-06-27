@@ -6,7 +6,7 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
 Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2025.06.27 a las 02:28:37 AM CDT 
+Generado el: 2025.06.27 a las 04:02:14 PM CDT 
 
   -->
       
@@ -14,79 +14,79 @@ Generado el: 2025.06.27 a las 02:28:37 AM CDT
             
         <schemaBindings map="false">
                   
-            <package name="com.example.demo.schemas"/>
+            <package name="com.pruebaTecnica.nextia.schemas"/>
                 
         </schemaBindings>
             
         <bindings if-exists="true" scd="tns:getUsuarios">
                   
-            <class ref="com.example.demo.schemas.GetUsuarios"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.GetUsuarios"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:getUsuariosResponse">
                   
-            <class ref="com.example.demo.schemas.GetUsuariosResponse"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.GetUsuariosResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:Usuario">
                   
-            <class ref="com.example.demo.schemas.Usuario"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.Usuario"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:getUsuario">
                   
-            <class ref="com.example.demo.schemas.GetUsuario"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.GetUsuario"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:getUsuarioResponse">
                   
-            <class ref="com.example.demo.schemas.GetUsuarioResponse"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.GetUsuarioResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:addUsuario">
                   
-            <class ref="com.example.demo.schemas.AddUsuario"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.AddUsuario"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:UsuarioSinId">
                   
-            <class ref="com.example.demo.schemas.UsuarioSinId"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.UsuarioSinId"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:addUsuarioResponse">
                   
-            <class ref="com.example.demo.schemas.AddUsuarioResponse"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.AddUsuarioResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:deleteUsuario">
                   
-            <class ref="com.example.demo.schemas.DeleteUsuario"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.DeleteUsuario"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:deleteUsuarioResponse">
                   
-            <class ref="com.example.demo.schemas.DeleteUsuarioResponse"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.DeleteUsuarioResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:updateUsuario">
                   
-            <class ref="com.example.demo.schemas.UpdateUsuario"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.UpdateUsuario"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:updateUsuarioResponse">
                   
-            <class ref="com.example.demo.schemas.UpdateUsuarioResponse"/>
+            <class ref="com.pruebaTecnica.nextia.schemas.UpdateUsuarioResponse"/>
                 
         </bindings>
           
