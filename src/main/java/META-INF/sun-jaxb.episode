@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2025.06.27 a las 02:28:37 AM CDT 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.nextia.com/usuariosService/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.example.demo.schemas"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:getUsuarios">
+                  
+            <class ref="com.example.demo.schemas.GetUsuarios"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getUsuariosResponse">
+                  
+            <class ref="com.example.demo.schemas.GetUsuariosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Usuario">
+                  
+            <class ref="com.example.demo.schemas.Usuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getUsuario">
+                  
+            <class ref="com.example.demo.schemas.GetUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getUsuarioResponse">
+                  
+            <class ref="com.example.demo.schemas.GetUsuarioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:addUsuario">
+                  
+            <class ref="com.example.demo.schemas.AddUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UsuarioSinId">
+                  
+            <class ref="com.example.demo.schemas.UsuarioSinId"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:addUsuarioResponse">
+                  
+            <class ref="com.example.demo.schemas.AddUsuarioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteUsuario">
+                  
+            <class ref="com.example.demo.schemas.DeleteUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteUsuarioResponse">
+                  
+            <class ref="com.example.demo.schemas.DeleteUsuarioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateUsuario">
+                  
+            <class ref="com.example.demo.schemas.UpdateUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateUsuarioResponse">
+                  
+            <class ref="com.example.demo.schemas.UpdateUsuarioResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
