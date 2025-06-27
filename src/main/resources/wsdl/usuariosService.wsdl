@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="usuariosService" targetNamespace="http://www.nextia.com/usuariosService/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.nextia.com/usuariosService/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.nextia.com/usuariosService/">
+      <xsd:element name="getUsuarios">
+        <xsd:complexType>
+          <xsd:sequence>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getUsuariosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="usuario" type="tns:Usuario" maxOccurs="unbounded" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:complexType name="Usuario">
+      	<xsd:sequence>
+      		<xsd:element name="id" type="xsd:int"></xsd:element>
+      		<xsd:element name="nombre" type="xsd:string"></xsd:element>
+      		<xsd:element name="apellido" type="xsd:string"></xsd:element>
+      		<xsd:element name="telefono" type="xsd:string"></xsd:element>
+      		<xsd:element name="email" type="xsd:string"></xsd:element>
+      		<xsd:element name="password" type="xsd:string"></xsd:element>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="getUsuario">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="id" type="xsd:int"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getUsuarioResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="usuario" type="tns:Usuario"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addUsuario">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="usuario" type="tns:UsuarioSinId"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addUsuarioResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+    
+      <xsd:complexType name="UsuarioSinId">
+      	<xsd:sequence>
+      		<xsd:element name="nombre" type="xsd:string"></xsd:element>
+      		<xsd:element name="apellido" type="xsd:string"></xsd:element>
+      		<xsd:element name="telefono" type="xsd:string"></xsd:element>
+      		<xsd:element name="email" type="xsd:string"></xsd:element>
+      		<xsd:element name="password" type="xsd:string"></xsd:element>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="deleteUsuario">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="id" type="xsd:int"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="deleteUsuarioResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateUsuario">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="usuario" type="tns:Usuario"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updateUsuarioResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getUsuariosRequest">
+    <wsdl:part element="tns:getUsuarios" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getUsuariosResponse">
+    <wsdl:part element="tns:getUsuariosResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getUsuarioRequest">
+  	<wsdl:part name="parameters" element="tns:getUsuario"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUsuarioResponse">
+  	<wsdl:part name="parameters" element="tns:getUsuarioResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addUsuarioRequest">
+  	<wsdl:part name="parameters" element="tns:addUsuario"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addUsuarioResponse">
+  	<wsdl:part name="parameters" element="tns:addUsuarioResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteUsuarioRequest">
+  	<wsdl:part name="parameters" element="tns:deleteUsuario"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteUsuarioResponse">
+  	<wsdl:part name="parameters" element="tns:deleteUsuarioResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateUsuarioRequest">
+  	<wsdl:part name="parameters" element="tns:updateUsuario"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateUsuarioResponse">
+  	<wsdl:part name="parameters" element="tns:updateUsuarioResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="usuariosService">
+    <wsdl:operation name="getUsuarios">
+      <wsdl:input message="tns:getUsuariosRequest"/>
+      <wsdl:output message="tns:getUsuariosResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="getUsuario">
+    	<wsdl:input message="tns:getUsuarioRequest"></wsdl:input>
+    	<wsdl:output message="tns:getUsuarioResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUsuario">
+    	<wsdl:input message="tns:addUsuarioRequest"></wsdl:input>
+    	<wsdl:output message="tns:addUsuarioResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUsuario">
+    	<wsdl:input message="tns:deleteUsuarioRequest"></wsdl:input>
+    	<wsdl:output message="tns:deleteUsuarioResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateUsuario">
+    	<wsdl:input message="tns:updateUsuarioRequest"></wsdl:input>
+    	<wsdl:output message="tns:updateUsuarioResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="usuariosServiceSOAP" type="tns:usuariosService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getUsuarios">
+      <soap:operation soapAction="http://www.nextia.com/usuariosService/getUsuarios"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="usuariosService">
+    <wsdl:port binding="tns:usuariosServiceSOAP" name="usuariosServiceSOAP">
+      <soap:address location="http://www.example.org/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
