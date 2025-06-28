@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.nextia.com/usuariosService/" targetNamespace="http://www.nextia.com/usuariosService/">
-<xsd:element name="getUsuarios">
+<xsd:element name="getUsuariosRequest">
     <xsd:complexType>
         <xsd:sequence>
         </xsd:sequence>
@@ -24,7 +24,7 @@
         <xsd:element name="password" type="xsd:string"></xsd:element>
     </xsd:sequence>
 </xsd:complexType>
-<xsd:element name="getUsuario">
+<xsd:element name="getUsuarioRequest">
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element name="id" type="xsd:int"></xsd:element>
@@ -38,7 +38,7 @@
         </xsd:sequence>
     </xsd:complexType>
 </xsd:element>
-<xsd:element name="addUsuario">
+<xsd:element name="addUsuarioRequest">
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element name="usuario" type="tns:UsuarioSinId"></xsd:element>
@@ -61,7 +61,7 @@
         <xsd:element name="password" type="xsd:string"></xsd:element>
     </xsd:sequence>
 </xsd:complexType>
-<xsd:element name="deleteUsuario">
+<xsd:element name="deleteUsuarioRequest">
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element name="id" type="xsd:int"></xsd:element>
@@ -74,7 +74,7 @@
         </xsd:sequence>
     </xsd:complexType>
 </xsd:element>
-<xsd:element name="updateUsuario">
+<xsd:element name="updateUsuarioRequest">
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element name="usuario" type="tns:Usuario"></xsd:element>

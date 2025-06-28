@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2025.06.27 a las 04:02:14 PM CDT 
+// Generado el: 2025.06.27 a las 08:42:00 PM CDT 
 //
 
 
@@ -10,6 +10,7 @@ package com.pruebaTecnica.nextia.schemas;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
 
@@ -24,6 +25,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
+ *         &lt;element name="usuario" type="{http://www.nextia.com/usuariosService/}Usuario"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -33,9 +35,37 @@ import jakarta.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "")
-@XmlRootElement(name = "getUsuarios")
-public class GetUsuarios {
+@XmlType(name = "", propOrder = {
+    "usuario"
+})
+@XmlRootElement(name = "updateUsuarioRequest")
+public class UpdateUsuarioRequest {
 
+    @XmlElement(required = true)
+    protected Usuario usuario;
+
+    /**
+     * Obtiene el valor de la propiedad usuario.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Usuario }
+     *     
+     */
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    /**
+     * Define el valor de la propiedad usuario.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Usuario }
+     *     
+     */
+    public void setUsuario(Usuario value) {
+        this.usuario = value;
+    }
 
 }

@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2025.06.27 a las 04:02:14 PM CDT 
+// Generado el: 2025.06.27 a las 08:42:00 PM CDT 
 //
 
 
@@ -14,7 +14,7 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.com.smi.generated.generated.com.smi.generated.generated.com.smi.com.smi.generated.generated.com.smi.generated.generated in the com.pruebaTecnica.nextia.schemas package. 
+ * com.smi.generated.generated in the com.pruebaTecnica.nextia.schemas package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -37,11 +37,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetUsuarios }
+     * Create an instance of {@link GetUsuariosRequest }
      * 
      */
-    public GetUsuarios createGetUsuarios() {
-        return new GetUsuarios();
+    public GetUsuariosRequest createGetUsuariosRequest() {
+        return new GetUsuariosRequest();
     }
 
     /**
@@ -61,11 +61,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetUsuario }
+     * Create an instance of {@link GetUsuarioRequest }
      * 
      */
-    public GetUsuario createGetUsuario() {
-        return new GetUsuario();
+    public GetUsuarioRequest createGetUsuarioRequest() {
+        return new GetUsuarioRequest();
     }
 
     /**
@@ -77,11 +77,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AddUsuario }
+     * Create an instance of {@link AddUsuarioRequest }
      * 
      */
-    public AddUsuario createAddUsuario() {
-        return new AddUsuario();
+    public AddUsuarioRequest createAddUsuarioRequest() {
+        return new AddUsuarioRequest();
     }
 
     /**
@@ -101,11 +101,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DeleteUsuario }
+     * Create an instance of {@link DeleteUsuarioRequest }
      * 
      */
-    public DeleteUsuario createDeleteUsuario() {
-        return new DeleteUsuario();
+    public DeleteUsuarioRequest createDeleteUsuarioRequest() {
+        return new DeleteUsuarioRequest();
     }
 
     /**
@@ -117,11 +117,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link UpdateUsuario }
+     * Create an instance of {@link UpdateUsuarioRequest }
      * 
      */
-    public UpdateUsuario createUpdateUsuario() {
-        return new UpdateUsuario();
+    public UpdateUsuarioRequest createUpdateUsuarioRequest() {
+        return new UpdateUsuarioRequest();
     }
 
     /**
